@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color:rgb(38, 38, 38);
 }
 
 .nav-bar {
@@ -15,7 +15,7 @@
 
 .home .header {
   height: 18rem;
-  background: url('https://img.freepik.com/free-vector/young-woman-home-library-writing-with-wine_107791-5840.jpg?size=626&ext=jpg&uid=R107272678');
+  background: url("https://img.freepik.com/free-vector/young-woman-home-library-writing-with-wine_107791-5840.jpg?size=626&ext=jpg&uid=R107272678");
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -28,10 +28,9 @@
 
 .home .intro .image {
   width: 50%;
-  float: right;
   display: flex;
   height: 30rem;
-  background: url('./images/Thesis-rafiki\ \(1\).png');
+  background: url("./images/Thesis-rafiki\ \(1\).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -53,30 +52,72 @@
   color: rgb(91, 91, 91);
 }
 
-.home .intro-text{
-  float: left;
-  margin-left: 10rem;
-  padding-left: 2rem;
-  font-size: 2.5rem;
-  width: 55%;
-  font-weight: 600;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  padding-top: 2rem;
-  color: #fff;
-}
-
-.home .heading-links{
-  float: left;
-  padding-left: 5rem;
-  margin-left: 20rem;
+.home .heading-links {
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
 }
 
-.home .heading-links h3{
+.home .heading-links h3 {
   color: #fff;
   font-weight: 800;
   font-size: 4rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-bottom: 2rem;
+}
+
+.home .list-links {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.home .list-links .links {
+  display: block;
+  justify-content: space-between;
+  margin-left: 19rem;
+  padding-left: 5rem;
+  width: 60%;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(93, 223, 156);
+}
+
+.home .list-links .links p{
+  background-color: rgb(93, 223, 156);
+  font-weight: 700;
+  color: rgb(38, 38, 38);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home .list-links .links .link{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 2rem;
+}
+
+.home .home-contact{
+  width: 50%;
+  background-color: rgb(93, 223, 156);
+  margin: 3rem 0 3rem 23.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+
+}
+
+.home .home-contact h3{
+  background-color: rgb(93, 223, 156);
+}
+
+.home .home-contact p{
+  background-color: rgb(93, 223, 156);
+}
+
+.home .home-contact button{
+  background-color: #2683e0;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
 }
